@@ -9,9 +9,11 @@
     <link href="index.html" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <style>
       .row {
+        float: left;
         display: block;
         position: relative;
-        width: 100%;
+        width: 60%;
+        clear: both;
       }
       
       .col {
@@ -21,10 +23,9 @@
         width: 100%;
       }
       
-      @media screen and (min-width:480px) {
+      @media screen and (mix-width:300px) {
         col {
-          display: flex;
-          height: auto;
+          width: auto;
         }
       }
       
@@ -48,7 +49,7 @@
       body {
         background-color: navy;
       }
-      @media screen and (min-width: 560px) {
+      @media screen and (min-width: 200px) {
         body {
           background-color: lightgreen;
       }
