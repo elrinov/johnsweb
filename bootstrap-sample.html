@@ -11,6 +11,16 @@
      <style> 
     .myOutline {border:solid black 1px}
    
+    .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+    }
+	     
     .img-fluid {
     width: 50%;
     height: 50%;
@@ -41,11 +51,11 @@
       <div class="container-fluid">
 	      
          <div class="row">
-   	 	<div class="col-md-4 myOutline"> <button type="button" class="btn btn-danger">Wonderful World</button>
+   	 	<div class="col-md-4 myOutline"> <button type="button" class="btn btn-wonder">Wonderful World</button>
 		 </div>
-   		<div class="col-md-4 myOutline"> <button type="button" class="btn btn-warning">Beautiful World</button>
+   		<div class="col-md-4 myOutline"> <button type="button" class="btn btn-beauty">Beautiful World</button>
 		 </div>
-   		<div class="col-md-4 myOutline"> <button type="button" class="btn btn-success">Be the luck</button>
+   		<div class="col-md-4 myOutline"> <button type="button" class="btn btn-luck">Be the luck</button>
 		 </div>
 	</div>
 	      
